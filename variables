@@ -1,1 +1,6 @@
-// [if & switch statements](http://www.bfilipek.com/2017/01/cpp17features.html#init-statements-for-if-and-switch)
+// if & switch statements
+
+if (auto val = GetValue(); condition(val))    
+    // on success  
+else   
+    // on false... 
